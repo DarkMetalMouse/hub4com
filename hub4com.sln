@@ -1,39 +1,41 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual C++ Express 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hub4com", "hub4com.vcproj", "{AC4EC208-ED55-4F9D-ACDD-A57642C3C296}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hub4com", "hub4com.vcxproj", "{AC4EC208-ED55-4F9D-ACDD-A57642C3C296}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "port-serial", "plugins\serial\serial.vcproj", "{031557BD-5B2D-4B87-B40D-2DD9C43E68BC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "port-serial", "plugins\serial\serial.vcxproj", "{031557BD-5B2D-4B87-B40D-2DD9C43E68BC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "port-tcp", "plugins\tcp\tcp.vcproj", "{A1F397C9-2779-49D9-886F-A25D5E41EB0B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "port-tcp", "plugins\tcp\tcp.vcxproj", "{A1F397C9-2779-49D9-886F-A25D5E41EB0B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-telnet", "plugins\telnet\telnet.vcproj", "{BE3A1495-71A9-4B47-B1AC-44CB14A6E721}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-telnet", "plugins\telnet\telnet.vcxproj", "{BE3A1495-71A9-4B47-B1AC-44CB14A6E721}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-awakseq", "plugins\awakseq\awakseq.vcproj", "{58AC48ED-1D7D-4947-8BAA-4CD813B24760}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-awakseq", "plugins\awakseq\awakseq.vcxproj", "{58AC48ED-1D7D-4947-8BAA-4CD813B24760}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-pin2con", "plugins\pin2con\pin2con.vcproj", "{1706553E-2EDE-4A20-96A5-60ACD10A8F2D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-pin2con", "plugins\pin2con\pin2con.vcxproj", "{1706553E-2EDE-4A20-96A5-60ACD10A8F2D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-echo", "plugins\echo\echo.vcproj", "{F0ACE42D-3488-4054-B683-3B4BC43CD239}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-echo", "plugins\echo\echo.vcxproj", "{F0ACE42D-3488-4054-B683-3B4BC43CD239}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-pinmap", "plugins\pinmap\pinmap.vcproj", "{DC90F370-D011-4C9A-BD59-6BDC9BC161C0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-pinmap", "plugins\pinmap\pinmap.vcxproj", "{DC90F370-D011-4C9A-BD59-6BDC9BC161C0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-escparse", "plugins\escparse\escparse.vcproj", "{B56122ED-F2E6-4FA1-8E85-B8C606ED9400}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-escparse", "plugins\escparse\escparse.vcxproj", "{B56122ED-F2E6-4FA1-8E85-B8C606ED9400}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-trace", "plugins\trace\trace.vcproj", "{EDA524BD-8193-49E5-995E-9EE533E2641E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-trace", "plugins\trace\trace.vcxproj", "{EDA524BD-8193-49E5-995E-9EE533E2641E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-escinsert", "plugins\escinsert\escinsert.vcproj", "{4BFE1E9D-47D4-4172-A749-9AC2626C88F3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-escinsert", "plugins\escinsert\escinsert.vcxproj", "{4BFE1E9D-47D4-4172-A749-9AC2626C88F3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-linectl", "plugins\linectl\linectl.vcproj", "{8060E11C-18B2-4F9D-BDC0-A37726A3B8B9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-linectl", "plugins\linectl\linectl.vcxproj", "{8060E11C-18B2-4F9D-BDC0-A37726A3B8B9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-lsrmap", "plugins\lsrmap\lsrmap.vcproj", "{9089D426-5B23-4F82-B32E-33D56AF225DC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-lsrmap", "plugins\lsrmap\lsrmap.vcxproj", "{9089D426-5B23-4F82-B32E-33D56AF225DC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "port-connector", "plugins\connector\connector.vcproj", "{630AEA21-57A9-4803-BA9A-F85DCB73CD5D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "port-connector", "plugins\connector\connector.vcxproj", "{630AEA21-57A9-4803-BA9A-F85DCB73CD5D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-tag", "plugins\tag\tag.vcproj", "{523E524B-786C-45AB-A393-5135706449BC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-tag", "plugins\tag\tag.vcxproj", "{523E524B-786C-45AB-A393-5135706449BC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-crypt", "plugins\crypt\crypt.vcproj", "{FEB9BD18-B0EA-460F-8404-C97BD2623227}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-crypt", "plugins\crypt\crypt.vcxproj", "{FEB9BD18-B0EA-460F-8404-C97BD2623227}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-purge", "plugins\purge\purge.vcproj", "{EAC5A50E-9D86-4EC0-B57D-CBEC0ABDCECC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter-purge", "plugins\purge\purge.vcxproj", "{EAC5A50E-9D86-4EC0-B57D-CBEC0ABDCECC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -112,5 +114,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D13E4B9-2CF8-41AA-A10D-A74F35A2211D}
 	EndGlobalSection
 EndGlobal
